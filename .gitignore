@@ -6,7 +6,6 @@ K
 Y
 """
 
-
 papir ="""
 P
 A
@@ -64,7 +63,7 @@ def games():
         elif (choice == 0 and computer == 2) or (choice == 1 and computer == 0) or (choice == 2 and computer == 1):
              print(f'Vyhral jsi!!!!')
         else:
-            print(f' Prohral jsi, ale nebuď zoufalý, je tu možnost si zahrát znovu, bereš')
+            print(f' Prohral jsi, ale nebuď zoufalý, je tu možnost si zahrát znovu, bereš?')
     
     # Nabídka opakování hry
         repeat = input('Pokud si chceš zahrat jeste jednou napiš? A nebo N: \n').strip().lower()
